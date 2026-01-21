@@ -26,7 +26,6 @@ int main(void) {
             case ',': printf("    scanf(\"%%c\", &data[pointer]);\n"); break;
             case '[': printf("    while (data[pointer]) {\n"); break;
             case ']': printf("    }\n"); break;
-            default: break;
         }
 
         scanf("%c", &alpha);
